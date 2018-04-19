@@ -31,14 +31,14 @@ body {
   text-decoration: none;
   color: #fff;
   display: block;
-  transition: .3s background-color;
+
 }
  
 .nav a:hover, a:active
 {
 text-decoration: none;
 background-color: orange;
-rotate:(90deg);
+
 }
 .active, a.active
 {
@@ -100,6 +100,7 @@ color:green;
     box-shadow: 10px 5px 10px  5px #CEE3F6 ;
 }
 .box2{
+  padding-left: 10px;
    margin-left: 5px;
    margin-top: 10px;
    width:33%;
@@ -107,7 +108,7 @@ color:green;
     background-color:black;
     border-radius: 10px;
     font-size: 32px;
-    text-align: center;
+    text-align: justify;
     color: white;
     font-family: 'Comfortaa', cursive;
   }
@@ -142,7 +143,7 @@ color:green;
   background-color: black;
   width: 40%;
   height: 580px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 50px;
   margin-right: 10px;
   border-radius: 10px;
@@ -264,6 +265,7 @@ color:green;
   
 }
 .box14{
+  margin-top: 10px;
     background-color: red;
     margin-left: 15%;
     margin-right: 15%;
@@ -273,7 +275,7 @@ color:green;
 }
 .box15{
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0px;
     border-radius: 10px;
     width: 100%;
     height: 470px;
@@ -316,18 +318,20 @@ color:green;
   font-size: 40px;
   color: white;
   margin-left: 20px;
+  padding-left: 10px;
 }
 .box19{
+
   opacity:0.8;
-  background-color: white;
+  background-color: black;
        margin: 10px 10px;
     border-radius: 10px;
     width: 98%;
-    height: 300px;
-    color: black;
+    height: 200px;
+    
     text-align: left;
    text-decoration: none;
-    font-size: 70px;
+    font-size: 120px;
     padding-left: 20px;
     letter-spacing: 250px;
 
@@ -361,7 +365,7 @@ color:green;
  width: 500px;
  height:35px;
  margin-top: 20px;
-
+ padding-left: 10px;
  border-radius: 5px;
 
 }
@@ -370,25 +374,26 @@ color:green;
  height:35px;
  margin-top: 20px;
  border-radius: 5px;
-
+ padding-left: 10px;
 }
 .box21 input[type="feedback"]{
  width: 500px;
  height:100px;
  margin-top: 20px;
  border-radius: 5px;
-
+ padding-left:10px;
 }
 .box21 input[type="submit"]{
  width: 200px;
  height: 50px;
- margin-top: 10px;
+ margin-top: 20px;
  cursor: pointer;
  border-radius: 5px;
+ margin-right: 35%;
 }
 .btn {
     margin-left: 35%;
-    margin-top: 20px;
+    margin-top:80px;
     color: white; 
     padding: 14px 28px; 
     cursor: pointer;
@@ -403,7 +408,7 @@ color:green;
 
 
 a:hover{
-  opacity: 0.7;
+  opacity: 0.6;
   
 }
 
@@ -420,15 +425,19 @@ a:hover{
 
 
 marquee{
+     background-color: black;
+     opacity: 0.8;
+     margin-left: 10px;
      width: 100%;
      margin-top:5px;
-     height: 30px;  
+     height: 40px;  
      overflow: hidden;
      position: relative;
      color: white;
      border: 2.5px #8258FA;
      font-family: 'Gugi', cursive;
-     font-size: 20px;
+     font-size: 25px;
+     border-radius: 10px;
 }
 
 
@@ -439,6 +448,8 @@ marquee{
 
 
 footer {
+  background-color: black;
+  font-size: 20px;
   opacity: 0.7;
   height: 100px; 
   text-align: center;
@@ -447,29 +458,13 @@ footer {
   border-radius: 10px;
   color: white;
   border: 1px white;
+  padding-top: 5px;
+  padding-bottom:20px;
 }
 @media all and (max-width: 699px){
 .flex1{
 
   flex-direction: column; 
 }
-.flex2{
-  flex-direction: row;
-}
-*{
-  font-size: 20px;
-}
-.box5,.box3{
-  
-  width: 100%;
-  font-size: 20px;
-   
 
 
-}
-.box2,.box3,.box4,.box5,.box6,footer{
-width: 90%;
-}
-.box2{
-  font-size: 25px;
-}
