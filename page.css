@@ -411,19 +411,6 @@ a:hover{
   opacity: 0.6;
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 marquee{
      background-color: black;
      opacity: 0.8;
@@ -440,15 +427,7 @@ marquee{
      border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-footer {
-  text-decoration: none;
+footer{text-decoration: none;
   background-color: black;
   font-size: 20px;
   opacity: 0.7;
@@ -462,10 +441,9 @@ footer {
   padding-top: 5px;
   padding-bottom:20px;
 }
-@media all and (max-width: 699px){
-.flex1{
 
-  flex-direction: column; 
+@media screen and (min-width: 600px){
+  .box1{
+    height: 80%;
+  }
 }
-
-
