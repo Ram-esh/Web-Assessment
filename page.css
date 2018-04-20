@@ -119,6 +119,9 @@ color:green;
 
   }
   .box3{
+    animation: anime 15s infinite;
+    animation-direction: all;
+
     margin-top: 10px;
    margin-left: 20px;
 
@@ -134,6 +137,10 @@ color:green;
 
 
       
+}
+@keyframes anime{
+  from{font-size: 50px;}
+  to{font-size: 80px;}
 }
 .flex1{
  display: flex;
@@ -441,6 +448,70 @@ footer{text-decoration: none;
   padding-top: 5px;
   padding-bottom:20px;
 }
+
+@keyframes slider{
+0%{
+  left: 0;
+}
+20%{
+  left: 0;
+}
+25%{
+  left: -100%;
+}
+45%{
+  left: -100%;
+}
+50%{
+  left: -200%;
+}
+70%{
+  left: -200%;
+}
+95%{
+  left: -400%;
+}
+100%{
+  left: -400%;
+}
+
+}
+#slider{
+  overflow: hidden;
+  width: 100%;
+}
+#slider figure img{
+  width: 100%;
+  float:left;
+}
+#slider figure{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 5s slider infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 600px){
   .box1{
