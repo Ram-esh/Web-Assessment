@@ -351,7 +351,7 @@ color:green;
   height: 600px;
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  font-size: 0px;
+  font-size: 15px;
   color: white;
   margin-left: 30px;
   margin-right: 0px;
@@ -484,6 +484,10 @@ marquee{
   animation: 5s slider infinite;
 
 }
+
+
+
+
 
 
 @media screen and (min-width: 600px){
