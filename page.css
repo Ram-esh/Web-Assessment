@@ -53,7 +53,7 @@ color:green;
   cursor: default;
 }
  
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {/*for mobile responsive*/
   .nav li {
     width: 120px;
     border-bottom: none;
@@ -77,7 +77,7 @@ color:green;
 
 
 }
-.box1{
+.box1{/*these are properties of box 1*/
    opacity:0.8;
   margin-top: 20px;
   margin-left: 10px;
@@ -88,7 +88,7 @@ color:green;
     border-radius: 10px;
     box-shadow: 10px 5px 10px  5px #CEE3F6 ;
 }
-.box2{
+.box2{/*these are properties of box 2*/
   padding-left: 10px;
    margin-left: 5px;
    margin-top: 10px;
@@ -107,7 +107,7 @@ color:green;
     border-radius: 10px;
 
   }
-  .box3{
+  .box3{/*these are properties of box 3*/
     animation: anime 15s infinite;
     
 
@@ -131,11 +131,11 @@ color:green;
   from{font-size: 50px;}
   to{font-size: 80px;}
 }
-.flex1{
+.flex1{/*these are properties of flex1*/
  display: flex;
   flex-direction: row; 
 }
-.box4{
+.box4{/*these are properties of box 4*/
   background-color: black;
   width: 40%;
   height: 580px;
@@ -148,7 +148,7 @@ color:green;
    font-family: 'Comfortaa', cursive;
     color: white;
 }
-.box5{
+.box5{/*these are properties of box 5*/
   background-color: white;
   width: 100%;
   height: 250px;
@@ -160,7 +160,7 @@ color:green;
    font-family: 'Comfortaa', cursive;
     color:black;
 }
-.box6{
+.box6{/*these are properties of box 6*/
  
   width: 100%;
   
@@ -173,13 +173,13 @@ color:green;
     color:white;
 }
 
-.flex2{
+.flex2{/*these are properties of flex2*/
  display: flex;
   flex-direction: column; 
 
 
 }
-.box7{
+.box7{/*these are properties of box 7*/
   background-color: black;
 
   width: 65%;
@@ -193,7 +193,7 @@ color:green;
    font-family: 'Comfortaa', cursive;
     color: white;
 }
-.box8{
+.box8{/*these are properties of box 8*/
    opacity:0.8;
   margin-top: 20px;
   margin-left: 10px;
@@ -204,7 +204,7 @@ color:green;
     border-radius: 10px;
     box-shadow: 10px 5px 10px  5px #CEE3F6 ;
 }
-.box9{
+.box9{/*these are properties of box 9*/
     margin-left: 20px;
     margin-top: 10px;
     width:70%;
@@ -216,7 +216,7 @@ color:green;
     color: white;
    }
 
-.box10{
+.box10{/*these are properties of box 10*/
 
     margin-left: 20px;
     margin-top: 10px;
@@ -229,7 +229,7 @@ color:green;
   
 
 }
-.box11{
+.box11{/*these are properties of box 11*/
     background-color: white;
     width: 100%;
     height: 150px;
@@ -241,7 +241,7 @@ color:green;
     font-family: 'Comfortaa', cursive;
     color:black; 
 }
-.box12{
+.box12{/*these are properties of box 12*/
  background-color: black;
     width: 17%;
     height: 150px;
@@ -250,7 +250,7 @@ color:green;
    
     
 }
-.box13{
+.box13{/*these are properties of box 14*/
     background-color: black;
     width: 83%;
     height: 150px;
@@ -260,7 +260,7 @@ color:green;
     color:white; 
   
 }
-.box14{
+.box14{/*these are properties of box 14*/
   margin-top: 10px;
     background-color: red;
     margin-left: 15%;
@@ -269,7 +269,7 @@ color:green;
     height: 260px;
     border-radius: 50%;
 }
-.box15{
+.box15{/*these are properties of box 15*/
     background-color: white;
     margin-top: 0px;
     border-radius: 10px;
@@ -279,7 +279,7 @@ color:green;
     text-align: center;
     color: black;
 }
-.box16{
+.box16{/*these are properties of box 16*/
     
     background-color:black;
     margin: 10px 10px;
@@ -291,7 +291,7 @@ color:green;
     color: black;
 
 }
-.box17{
+.box17{/*these are properties of box 17*/
     background-color: black;
     
     border-radius: 10px;
@@ -303,7 +303,7 @@ color:green;
 
 
 }
-.box18{
+.box18{/*these are properties of box 18*/
   background-color:black ;
   opacity: 0.7;
   border-radius: 10px;
@@ -316,7 +316,7 @@ color:green;
   margin-left: 20px;
   padding-left: 10px;
 }
-.box19{
+.box19{/*these are properties of box 19*/
 
   opacity:0.8;
   background-color: black;
@@ -332,7 +332,7 @@ color:green;
     letter-spacing: 250px;
 
 }
-.box20{
+.box20{/*these are properties of box 20*/
  background-color: black;
     
     border-radius: 10px;
@@ -343,7 +343,7 @@ color:green;
     color: black;
  
 }
-.box21{
+.box21{/*these are properties of box 21*/
    background-color:black;
   opacity: 0.7;
   
@@ -357,7 +357,7 @@ color:green;
   margin-right: 0px;
   padding-left: 5px;
 }
-.box21 input[type="text"]{
+.box21 input[type="text"]{/*these are properties of form in contact*/
  width: 500px;
  height:35px;
  margin-top: 20px;
@@ -365,21 +365,21 @@ color:green;
  border-radius: 5px;
 
 }
-.box21 input[type="email"]{
+.box21 input[type="email"]{/*these are properties of form in contact*/
  width: 500px;
  height:35px;
  margin-top: 20px;
  border-radius: 5px;
  padding-left: 10px;
 }
-.box21 input[type="feedback"]{
+.box21 input[type="feedback"]{/*these are properties of form in contact*/
  width: 500px;
  height:100px;
  margin-top: 20px;
  border-radius: 5px;
  padding-left:10px;
 }
-.box21 input[type="submit"]{
+.box21 input[type="submit"]{/*these are properties of form in contact*/
  width: 200px;
  height: 50px;
  margin-top: 20px;
@@ -439,7 +439,7 @@ marquee{
   padding-bottom:20px;
 }
 
-@keyframes slider{
+@keyframes slider{/*these are properties of animation in home page*/
 0%{
   left: 0;
 }
